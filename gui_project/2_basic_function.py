@@ -22,7 +22,7 @@ def del_file():
     #print(list_file.curselection())
     for index in reversed(list_file.curselection()):
         list_file.delete(index)
-
+        
 # 저장 경로 (폴더)
 def browse_dest_path():
     folder_selected = filedialog.askdirectory()
